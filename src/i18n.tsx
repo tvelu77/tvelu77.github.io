@@ -116,7 +116,7 @@ export const {
 						"not found": "Page non trouvée"
 					},
 					"Header": {
-						"headerTitle": "Titre",
+						"headerTitle": "tvelu77",
 						"link1label": "Exemple de page",
 						"link2label": "Lien 2",
 						"link3label": "Lien 3"
@@ -128,8 +128,12 @@ export const {
 						"link3label": "Lien 3"
 					},
 					"Home": {
-						"heroTitle": "Titre du Hero",
-						"heroSubtitle": "Sous titre du Hero",
+						"heroTitle": "Thomas VELU",
+						"heroSubtitle": `Ingénieur Full-stack diplômé de l'ESIEE
+							avec une expertise en Java et PHP (avec le framework Symfony).
+							Féru de jeux-vidéos et de technologie open-source, je m'efforce
+							à produire des logiciels ouverts et accessibles à tous.
+							`,
 						"articleTitle": "Titre de l'article",
 						"articleBody": `Fille pieds qui ici breve coups 
 							soeur. Va on on succedent deroulent de capitaine 

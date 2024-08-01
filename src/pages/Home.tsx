@@ -4,7 +4,7 @@ import { GlArticle } from "gitlanding/GlArticle";
 import { GlCards } from "gitlanding/GlCards";
 import { GlLogoCard } from "gitlanding/GlCards/GlLogoCard";
 import { declareComponentKeys, useTranslation } from "i18n";
-import heroPng from "assets/img/hero.png";
+import heroPng from "assets/img/self.jpg";
 import articlePng from "assets/img/home-article.png";
 import balloonIcon from "assets/icons/balloon.png";
 import drawioIcon from "assets/icons/drawio.png";

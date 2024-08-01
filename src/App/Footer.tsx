@@ -8,8 +8,8 @@ export const Footer = memo(() => {
 	const { t } = useTranslation({ Footer })
 	return <GlFooter
 		bottomDivContent={t("license")}
-		email="email@email.com"
-		phoneNumber="+33545345676"
+		email="velu.thomas77@laposte.net"
+		phoneNumber="+33662492787"
 		links={[
 			{
 				"label": t("link1label"),
