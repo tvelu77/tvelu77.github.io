@@ -129,24 +129,23 @@ export const {
 					},
 					"Home": {
 						"heroTitle": "Thomas VELU",
-						"heroSubtitle": `Ingénieur Full-stack diplômé de l'ESIEE
-							avec une expertise en Java et PHP (avec le framework Symfony).
+						"heroSubtitle": `Bienvenue sur ma page personnelle.
+							Je suis Thomas VELU, un ingénieur Full-stack diplômé de l'ESIEE (2024)
+							avec une expertise en Java et PHP (avec le framework Symfony) et ayant fait
+							une alternance chez Orange.
 							Féru de jeux-vidéos et de technologie open-source, je m'efforce
-							à produire des logiciels ouverts et accessibles à tous.
+							à produire des logiciels ouverts et suivants les bonnes pratiques.
+							Ce site web a été fait avec GitLanding et GitHub Pages.
 							`,
-						"articleTitle": "Titre de l'article",
-						"articleBody": `Fille pieds qui ici breve coups 
-							soeur. Va on on succedent deroulent de capitaine 
-							rapportes esplanade. Accoudees inassouvi sacrifice 
-							dit mes ils surveille tangibles ici dentelees. 
-							Atroce esprit bazars en boules je sa. 
-							Car but approchait artilleurs eclatantes 
-							defilaient moi nez paraissent claquaient. 
-							Est crepitent car seulement adjudants eux 
-							apprendre signalant ere incapable. 
-							Prenaient distribua ii en eperonnes enfantent 
-							entourage cotillons.`,
-						"articleButtonLabel": "Label du bouton",
+						"articleTitle": "Mémoire d'ingénieur",
+						"articleBody": `Un mémoire présentant mon évolution
+							dans mon cursus scolaire en alternance à l'ESIEE (ex-ESIPE).
+							L'alternance s'est déroulée au sein d'Orange dans la branche OINIS
+							(Orange International Networks Infrastructures and Services) où
+							j'ai occupé le rôle de Développeur d'outils interne.
+							La mission (une application web en PHP sous Symfony) est décrite et
+							montre ma position en tant qu'ingénieur débutant.`,
+						"articleButtonLabel": "Visualiser sous format PDF",
 						"card1Title": "Titre de la carte 1",
 						"card2Title": "Titre de la carte 2",
 						"card3Title": "Titre de la carte 3",
