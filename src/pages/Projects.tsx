@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { Container, Typography, Card, CardContent, Button, Grid2 } from '@mui/material';
+import { useEffect, useState } from 'react';
+import { Container, Typography, Card, CardContent, Button } from '@mui/material';
 
 interface Project {
     id: number;
