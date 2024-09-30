@@ -13,9 +13,9 @@ export function Header() {
   }
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static" style={{ background: 'transparent', boxShadow: 'none' }}>
+      <AppBar position="fixed" style={{ background: 'transparent', boxShadow: 'none' }}>
         <Toolbar sx={{ justifyContent: "space-between" }}>
-          <Typography variant="h6" component={Link} to="/" sx={{ textDecoration: 'none', color: 'inherit' }}>
+          <Typography variant="h6" color="textPrimary" component={Link} to="/">
             {t('header.title')}
           </Typography>
           <Box sx={{ display: 'flex', alignItems: 'center' }}>
