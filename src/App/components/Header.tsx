@@ -3,11 +3,7 @@ import { AppBar, createTheme, FormControlLabel, MenuItem, Select, Toolbar, Typog
 import { LightSwitch } from './LightSwitch';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-
-const lngs = {
-  en: { nativeName: 'English' },
-  fr: { nativeName: 'Français' },
-};
+import { lngs } from 'i18n';
 
 export function Header() {
   const { mode, setMode } = useColorScheme();
@@ -17,19 +13,20 @@ export function Header() {
   }
   return (
     <Box sx={{ flexGrow: 1 }}>
-        <AppBar position="static"  style={{ background: 'transparent', boxShadow: 'none'}}>
-          <Toolbar sx={{ justifyContent: "space-between" }}>
+      <AppBar position="static" style={{ background: 'transparent', boxShadow: 'none' }}>
+        <Toolbar sx={{ justifyContent: "space-between" }}>
           <Typography variant="h6" component={Link} to="/" sx={{ textDecoration: 'none', color: 'inherit' }}>
-              {t('header.title')}
-            </Typography>
+            {t('header.title')}
+          </Typography>
+          <Box sx={{ display: 'flex', alignItems: 'center' }}>
             <Select
               value={i18n.language}
               onChange={(event) => i18n.changeLanguage(event.target.value)}
-              sx={{ marginLeft: 2 }}
+              sx={{ marginRight: 2 }}
             >
-          {Object.keys(lngs).map((lng) => (
-            <MenuItem key={lng} value={lng}>{lng}</MenuItem>
-          ))}
+              {Object.keys(lngs).map((lng) => (
+                <MenuItem key={lng} value={lng}>{lng}</MenuItem>
+              ))}
             </Select>
             <FormControlLabel
               control={
@@ -40,9 +37,10 @@ export function Header() {
               }
               label=""
             />
-          </Toolbar>
-        </AppBar>
-      </Box>
+          </Box>
+        </Toolbar>
+      </AppBar>
+    </Box>
   );
 }
 

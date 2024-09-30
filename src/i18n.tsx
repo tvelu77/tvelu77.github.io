@@ -18,6 +18,12 @@ i18next
   .use(initReactI18next).init({
   resources,
   fallbackLng: 'en',
+  supportedLngs: ['en', 'fr'],
 });
 
 export default i18next;
+
+export const lngs = {
+	en: { nativeName: 'English' },
+	fr: { nativeName: 'Français' },
+  };
