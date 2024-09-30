@@ -1,17 +1,10 @@
 {
   "files": {
-    "main.js": "/static/js/main.b5bf4ff5.js",
-    "static/media/self.jpg": "/static/media/self.0e68565f4977d6220c27.jpg",
-    "static/media/home-article.png": "/static/media/home-article.64a2f430b7a77662910e.png",
-    "static/media/article-page-example.png": "/static/media/article-page-example.70d6bd57ede0ada106fa.png",
-    "static/media/pokemon.png": "/static/media/pokemon.ac632dd7fdb5aa28556b.png",
-    "static/media/webinaire.png": "/static/media/webinaire.0fb29383820e122217ca.png",
-    "static/media/data-visualisation.png": "/static/media/data-visualisation.c147fb3b112f51f096a2.png",
-    "static/media/kubernetes.png": "/static/media/kubernetes.52ea2430dfac2c2b029c.png",
+    "main.js": "/static/js/main.2557e538.js",
     "index.html": "/index.html",
-    "main.b5bf4ff5.js.map": "/static/js/main.b5bf4ff5.js.map"
+    "main.2557e538.js.map": "/static/js/main.2557e538.js.map"
   },
   "entrypoints": [
-    "static/js/main.b5bf4ff5.js"
+    "static/js/main.2557e538.js"
   ]
 }
