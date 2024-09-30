@@ -1,33 +1,27 @@
-import { GlTemplate } from "gitlanding/GlTemplate";
-import { Header } from "./Header";
-import { Footer } from "./Footer";
-import { useRoute } from "../router";
-import { Home } from "../pages/Home";
-import { PageExample } from "../pages/PageExample";
-import { FourOhFour } from "../pages/FourOFour";
-import { ThemeProvider } from "../theme";
+import { ThemeProvider } from '@mui/material/styles';
+import CssBaseline from '@mui/material/CssBaseline';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { AboutMe } from '../pages/AboutMe';
+import { Header, theme } from './components/Header';
+import Navigation from './components/Navigation';
+import { Experiences } from 'pages/Experiences';
+import Projects from 'pages/Projects';
 
 export function App() {
-	const route = useRoute();
-	return (
-		<ThemeProvider>
-			<GlTemplate
-				header={<Header />}
-				headerOptions={{
-					"position": "sticky",
-					"isRetracted": "smart",
-				}}
-				footer={<Footer />}
-				body={
-					(()=>{
-						switch(route.name){
-							case "home": return <Home />;
-							case "pageExample": return <PageExample />;
-							default : return <FourOhFour />;
-						}
-					})()
-				}
-			/>
-		</ThemeProvider>
-	);
+  return (
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <Router>
+        <Header />
+        <Navigation />
+        <Routes>
+          <Route path="/" element={<AboutMe />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/experiences" element={<Experiences />} />
+        </Routes>
+      </Router>
+    </ThemeProvider>
+  );
 }
+
+export default App;

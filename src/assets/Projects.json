@@ -1,0 +1,20 @@
+[
+    {
+      "name": "Project 1",
+      "description": "Description of Project 1",
+      "url": "https://github.com/user/project1",
+      "stars": 100
+    },
+    {
+      "name": "Project 2",
+      "description": "Description of Project 2",
+      "url": "https://github.com/user/project2",
+      "stars": 150
+    },
+    {
+      "name": "Project 3",
+      "description": "Description of Project 3",
+      "url": "https://github.com/user/project3",
+      "stars": 200
+    }
+  ]
