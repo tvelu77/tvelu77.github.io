@@ -37,5 +37,13 @@
             "date": "2021 - 2024",
             "description": "Diplôme d'ingénieur spécialisé en logiciel"
         }
+    },
+    "projects": {
+        "no-projects": "Pas de projets disponibles.",
+        "no-description": "Pas de description disponible.",
+        "languages": "Langages: ",
+        "no-language": "Pas de langages disponibles.",
+        "to-github": "Voir sur GitHub",
+        "much-more": "Et bien plus encore !"
     }
 }

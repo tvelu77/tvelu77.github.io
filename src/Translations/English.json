@@ -37,5 +37,13 @@
             "date": "2021 - 2024",
             "description": "Diploma in software engineering"
         }
+    },
+    "projects": {
+        "no-projects": "No projects available.",
+        "no-description": "No description available.",
+        "languages": "Languages: ",
+        "no-language": "No languages available.",
+        "to-github": "View on GitHub",
+        "much-more": "And much more !"
     }
 }
