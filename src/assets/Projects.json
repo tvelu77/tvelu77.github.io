@@ -1,20 +1,23 @@
 [
     {
-      "name": "Project 1",
-      "description": "Description of Project 1",
-      "url": "https://github.com/user/project1",
-      "stars": 100
+      "id": 1,
+      "name": "OCPPConfigurationServer",
+      "description": "A web application to update or configure a charge point with OCPP protocol.",
+      "url": "https://github.com/tvelu77/OCPPConfigurationServer",
+      "languages": ["Java", "Spring Boot", "React"]
     },
     {
-      "name": "Project 2",
-      "description": "Description of Project 2",
-      "url": "https://github.com/user/project2",
-      "stars": 150
+      "id": 2,
+      "name": "CloutMetrics",
+      "description": "A web application for checking a git repository stats.",
+      "url": "https://github.com/tvelu77/cloutmetrics",
+      "languages": ["Java", "Spring Boot", "React"]
     },
     {
-      "name": "Project 3",
-      "description": "Description of Project 3",
-      "url": "https://github.com/user/project3",
-      "stars": 200
+      "id": 3,
+      "name": "PHP-Serial",
+      "description": "Multi-platform convenience class to access the serial port from PHP.",
+      "url": "https://github.com/tvelu77/php-serial",
+      "languages": ["PHP"]
     }
   ]

@@ -1,5 +1,5 @@
 import { memo } from "react";
-import { makeStyles, Text } from "theme";
+import { makeStyles } from "theme";
 import { declareComponentKeys } from "i18nifty";
 
 export const FourOhFour = memo(() => {
