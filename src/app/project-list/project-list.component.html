@@ -1,1 +1,6 @@
-<p>project-list works!</p>
+<div class="container">
+    <h1>Projets GitHub</h1>
+    <div class="project-card" *ngFor="let project of projects">
+        <app-project [project]="project"/>
+    </div>
+</div>

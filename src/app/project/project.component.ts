@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Project } from '../model/project';
 
 @Component({
@@ -9,5 +9,6 @@ import { Project } from '../model/project';
   styleUrl: './project.component.css'
 })
 export class ProjectComponent {
-  project: Project;
+  @Input()
+  project!: Project;
 }
