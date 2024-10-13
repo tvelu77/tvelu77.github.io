@@ -1,6 +1,6 @@
 <p-dock [model]="items" position="bottom">
     <ng-template pTemplate="item" let-item>
-        <a [href]="item.link">
+        <a [routerLink]="item.link">
             <p-avatar 
             [icon]="item.icon"
             styleClass="mr-2"

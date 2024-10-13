@@ -19,7 +19,7 @@ export class DockComponent {
         'background-color': '#1dd9b4',
         'color': '#ffffff',
       },
-      link: '#',
+      link: '/about-me',
     },
     {
       label: 'Projects',
@@ -28,7 +28,7 @@ export class DockComponent {
         'background-color': '#dc5858',
         'color': '#ffffff',
       },
-      link: '#',
+      link: '/projects',
     },
     {
       label: 'Experiences',
