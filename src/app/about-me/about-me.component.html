@@ -1,0 +1,16 @@
+<div class="p-d-flex p-jc-center p-ai-center" style="height: 100vh;">
+    <p-card title="{{ title }}" class="p-shadow-4">
+      <div class="p-d-flex p-jc-center">
+        <p-avatar label="F" class="p-mb-3"></p-avatar>
+      </div>
+      <p>{{ description }}</p>
+      <h5>Compétences :</h5>
+      <ul>
+        <li *ngFor="let skill of skills">{{ skill }}</li>
+      </ul>
+      <div class="p-d-flex p-jc-between p-mt-3">
+        <p-button label="Contact" icon="pi pi-envelope" class="p-button-primary"></p-button>
+        <p-button label="Portfolio" icon="pi pi-link" class="p-button-secondary"></p-button>
+      </div>
+    </p-card>
+  </div>
