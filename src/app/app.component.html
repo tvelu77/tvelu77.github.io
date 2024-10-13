@@ -1,7 +1,8 @@
+<div class="spinner-container">
 @defer {
   <app-dock />
+  <router-outlet />
 } @placeholder (minimum 2s) {
-  <div class="spinner-container">
-    <i class="pi pi-spin pi-spinner" style="font-size: 2rem"></i>
-  </div>
+  <i class="pi pi-spin pi-spinner" style="font-size: 2rem"></i>
 }
+</div>
