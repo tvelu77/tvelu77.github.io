@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "title": "OCPPConfigurationServer",
+      "description": "A web application to update or configure a charge point with OCPP protocol.",
+      "link": "https://github.com/tvelu77/OCPPConfigurationServer",
+      "languages": ["Java", "Spring Boot", "React"]
+    },
+    {
+      "id": 2,
+      "title": "CloutMetrics",
+      "description": "A web application for checking a git repository stats.",
+      "link": "https://github.com/tvelu77/cloutmetrics",
+      "languages": ["Java", "Spring Boot", "React"]
+    },
+    {
+      "id": 3,
+      "title": "UGEgreed",
+      "description": "A class project for calculation distribution with TCP/IP communication.",
+      "link": "https://github.com/tvelu77/ugegreed",
+      "languages": ["Java"]
+    }
+  ]
