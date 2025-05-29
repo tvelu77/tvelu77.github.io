@@ -1,4 +1,4 @@
-# tvelu77.frama.io
+# tvelu77.github.io
 
 ## About
 
@@ -8,7 +8,7 @@ A portfolio website made with love and Angular !
 
 Clone the repository
 ```bash
-git clone git@framagit.org:tvelu77/tvelu77.frama.io.git
+git clone git@github.com:tvelu77/tvelu77.github.io.git
 ```
 
 Install all the dependencies

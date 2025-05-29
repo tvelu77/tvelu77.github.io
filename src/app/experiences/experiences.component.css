@@ -20,14 +20,6 @@
     flex-direction: column;
     gap: 16px;
   }
-  
-  .experience-item {
-    background-color: #333333;
-    color: #FFFFFF;
-    width: 100%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
 
   .smaller-screen-text {
     display: none;
@@ -49,4 +41,3 @@
   }
 
 }
-  
