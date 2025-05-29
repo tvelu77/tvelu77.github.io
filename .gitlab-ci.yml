@@ -1,0 +1,17 @@
+image: node:lts
+
+before_script:
+  - npm i -g @angular/cli@18.0.7
+  - npm i
+
+pages:
+  script:
+    - ng build --output-path public
+    - mv public/browser/* public/
+  
+  artifacts:
+    paths:
+      - public
+  
+  only:
+    - main

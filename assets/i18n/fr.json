@@ -1,0 +1,23 @@
+{
+    "common": {
+        "title": {
+            "about-me": "À propos de moi",
+            "projects": "Projets",
+            "cv": "Curriculum vitae",
+            "other": "Autre"
+        },
+        "go-back": "Revenir en arrière"
+    },
+    "home": {
+        "welcome-title": "Bienvenue sur mon portfolio !",
+        "links-title": "Liens"
+    },
+    "about-me": {
+        "first-section": "Un addict à l'open-source, un maniaque de l'informatique, un féru de jeux-vidéos et un fin connaisseur des calzones... Et oui, c'est moi, je suis Thomas VELU.",
+        "second-section": "Je suis un ingénieur logiciel français. Je suis diplômé de l'ESIEE Paris et j'adore résoudre des problèmes complexes en Java... ou du moins, j'adore essayer :)"
+    },
+    "projects": {
+        "used-languages": "Langages utilisés",
+        "know-more": "En savoir plus"
+    }
+}

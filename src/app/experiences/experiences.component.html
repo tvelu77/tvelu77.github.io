@@ -1,0 +1,36 @@
+<div class="experience-container">
+    <div>
+        <h1>
+            MY EXPERIENCES
+        </h1>
+    </div>
+    <div class="experience-list">
+        <mat-accordion>
+        @for (experience of experiences; track $index) {
+            <mat-expansion-panel class="experience-item">
+                <mat-expansion-panel-header>
+                    <mat-panel-title class="wider-screen-text">
+                        {{ experience.title }}
+                    </mat-panel-title>
+                    <mat-panel-description>
+                        {{ experience.period.formatPeriod() }}
+                        @if (experience.type === "work") {
+                            <mat-icon aria-hidden="false" aria-label="Work" fontIcon="work" />
+                        } @else if (experience.type === "education") {
+                            <mat-icon aria-hidden="false" aria-label="Education" fontIcon="school" />
+                        }
+                    </mat-panel-description>
+                </mat-expansion-panel-header>
+                <p class="smaller-screen-text">{{ experience.title }} at {{ experience.location.firm }} ({{ experience.location.city}})</p>
+                <p class="wider-screen-text">At {{ experience.location.firm }} ({{ experience.location.city}})</p>
+                <p>{{ experience.description }}</p>
+                <ul>
+                    @for (point of experience.details; track $index) {
+                        <li>{{ point }}</li>
+                    }
+                </ul>
+            </mat-expansion-panel>
+        }
+        </mat-accordion>
+    </div>
+</div>
