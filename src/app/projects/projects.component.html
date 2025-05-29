@@ -1,0 +1,25 @@
+<div class="projects-container">
+      @for (project of projects; track $index) {
+          <mat-card>
+            <mat-card-header>
+              <mat-card-title>{{ project.title }}</mat-card-title>
+              <mat-card-subtitle>{{ project.description }}</mat-card-subtitle>
+            </mat-card-header>
+            <mat-card-content>
+              <mat-chip-set aria-label="Technologies">
+                @for (technology of project.languages; track $index) {
+                  <mat-chip>{{ technology }}</mat-chip>
+                }
+              </mat-chip-set>
+            </mat-card-content>
+            <mat-card-actions>
+              <a mat-button [href]="project.link" target="_blank">
+                <mat-icon>code</mat-icon>
+                See more
+              </a>
+            </mat-card-actions>
+          </mat-card>
+      }
+<div>
+  <h1>MY PROJECTS</h1>
+</div>

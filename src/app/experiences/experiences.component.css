@@ -1,0 +1,52 @@
+.experience-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .mat-expansion-panel-header-description {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  h1 {
+    padding: 20px;
+  }
+
+  .experience-list {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .experience-item {
+    background-color: #333333;
+    color: #FFFFFF;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .smaller-screen-text {
+    display: none;
+  }
+
+@media (max-width: 650px) {
+  .wider-screen-text {
+    display: none;
+  }
+  .smaller-screen-text {
+    display: inline;
+  }
+
+}
+
+@media (max-width: 850px) {
+  .experience-container {
+    display: inline;
+  }
+
+}
+  
