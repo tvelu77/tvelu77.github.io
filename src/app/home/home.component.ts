@@ -12,11 +12,4 @@ export class HomeComponent {
 
   constructor(private translateService: TranslateService) {}
 
-  onClick(): string {
-    switch (this.translateService.currentLang) {
-      case "fr": return "https://tvelu77.frama.io/cv-fr/";
-      default: return "https://tvelu77.frama.io/cv-en/";
-    }
-  }
-
 }
