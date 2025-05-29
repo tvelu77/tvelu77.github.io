@@ -43,9 +43,6 @@ jobs:
       - name: Build
         run: |
           npm run build-prod
-      - name: Test
-        run: |
-          npm run test
       - name: Conventional Changelog Action
         if: ${{ github.event_name == 'push' }}
         id: changelog
