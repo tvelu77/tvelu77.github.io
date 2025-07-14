@@ -1,14 +1,13 @@
 import { Component } from '@angular/core';
 import { TranslateService } from "@ngx-translate/core";
-import { AboutMeComponent } from './about-me/about-me.component';
-import { ProjectsComponent } from './projects/projects.component';
-import { ExperiencesComponent } from './experiences/experiences.component';
-import { FooterComponent } from './footer/footer.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { AboutComponent } from './about/about.component';
+import { SkillsComponent } from './skills/skills.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [AboutMeComponent, ProjectsComponent, ExperiencesComponent, FooterComponent],
+  imports: [NavbarComponent, AboutComponent, SkillsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
