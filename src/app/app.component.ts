@@ -14,7 +14,7 @@ import { ContactComponent } from './contact/contact.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'tvelu77.frama.io';
+  title = 'tvelu77.github.io';
   currentLang: string = "en";
 
   constructor(private readonly translate: TranslateService) {

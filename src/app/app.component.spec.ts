@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'tvelu77.frama.io' title`, () => {
+  it(`should have the 'tvelu77.github.io' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('tvelu77.frama.io');
+    expect(app.title).toEqual('tvelu77.github.io');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, tvelu77.frama.io');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, tvelu77.github.io');
   });
 });
