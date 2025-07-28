@@ -1,0 +1,27 @@
+{
+    "about": {
+        "title": "Bonjour, Je suis Thomas 👋",
+        "description": "Un ingénieur logiciel qui écrit du code propre et efficace et qui résout des problèmes avant qu'elles impactent la production.",
+        "quote": "« Je vais vous écrire du code tellement propre que vous ne pouvez pas refuser la P.R »",
+        "quoter": "— Thomas, Baron du Refactor",
+        "skills": "Compétences",
+        "resume": "C.V",
+        "contact": "Contact"
+    },
+    "contact": {
+        "title": "Contact",
+        "quote": "« Besoin d’un code propre, de hacks ingénieux, ou juste de quelqu’un pour déboguer vos choix de vie ? Appelez donc Thomas ! »",
+        "quoter": "— Thomas, défenseur de la propreté du code"
+    },
+    "resume": {
+        "title": "Curriculum Vitae",
+        "quote": "« Un dev ouvre une Pull Request et se fait supprimer… Vous pensez que c'est moi ? Non. Je suis celui qui merge.”",
+        "quoter": "— Thomas, mainteneur qui fait avancer les choses",
+        "button-description": "Voir mon C.V (FRANÇAIS SEULEMENT)"
+    },
+    "skills": {
+        "title": "Compétences",
+        "quote": "« J'ai un ensemble particulier de compétences - des compétences qui font de moi un cauchemar pour les bugs. Si vous ne vous comportez pas bien, je VOUS tracerai. Je VOUS trouverai. Et je VOUS remanierai. »",
+        "quoter": "— Thomas, ingénieur logiciel avec un ensemble particuler de compétences"
+    }
+}

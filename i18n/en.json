@@ -1,0 +1,27 @@
+{
+    "about": {
+        "title": "Hi, I'm Thomas 👋",
+        "description": "A software engineer who writes clean, efficient code and solves problems before they hit production.",
+        "quote": "“I’m gonna write code so clean, you can’t reject the pull request.”",
+        "quoter": "— Thomas, Baron of Refactor",
+        "skills": "Skills",
+        "resume": "Resume",
+        "contact": "Contact"
+    },
+    "contact": {
+        "title": "Contact",
+        "quote": "“Need clean code, clever hacks, or just someone to debug your life decisions? Better Call Thomas!”",
+        "quoter": "— Thomas, code cleanliness advocate"
+    },
+    "resume": {
+        "title": "Curriculum Vitae",
+        "quote": "“A dev opens a Pull Request and gets downvoted… You think that of me? No. I am the one who merges.”",
+        "quoter": "— Thomas, maintainer who gets things done",
+        "button-description": "See my resume (FRENCH ONLY)"
+    },
+    "skills": {
+        "title": "Skills",
+        "quote": "“I have a particular set of skills — skills that make me a nightmare for bugs. If you don’t behave, I WILL trace you. I WILL find you. And I WILL refactor you.”",
+        "quoter": "— Thomas, software engineer with a very particular set of skills"
+    }
+}
