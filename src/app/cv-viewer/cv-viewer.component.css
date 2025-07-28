@@ -1,0 +1,44 @@
+.cv-section {
+    padding: 0 50px;
+    margin-bottom: 100px;
+}
+
+.cv-section h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.cv-section .text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cv-section .cv-viewer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cv-section .cv-viewer a {
+    color: var(--background-color);
+    background-color: var(--text-color);
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.cv-section .cv-viewer span {
+    margin-left: 5px;
+}
+
+@media (max-width: 400px) {
+    .cv-section .cv-viewer a {
+        color: var(--text-color);
+        background-color: transparent;
+        padding: 0;
+        font-size: 30px;
+    }
+
+    .cv-section .cv-viewer span {
+        display: none;
+    }
+}

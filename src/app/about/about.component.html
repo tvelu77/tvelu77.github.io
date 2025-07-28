@@ -1,14 +1,22 @@
 <section class="hero-section">
     <div class="text">
-        <h2>Hi, I'm Thomas 👋</h2>
-        <p>A software engineer who writes clean, efficient code and solves problems before they hit production.</p>
-        <p>“I’m gonna write code so clean, you can’t reject the pull request.” <i>- Thomas, code cleanliness
-                advocate</i></p>
+        <h2>{{ 'about.title' | translate }}</h2>
+        <p>{{ 'about.description' | translate }}</p>
+        <p>{{ 'about.quote' | translate }}</p>
+        <p><i>{{ 'about.quoter' | translate }}</i></p>
 
         <div class="links">
             <a href="#skills">
                 <i class="bi bi-code-slash"></i>
-                <span>Skills</span>
+                <span>{{ 'about.skills' | translate }}</span>
+            </a>
+            <a href="#cv">
+                <i class="bi bi-file-earmark-person-fill"></i>
+                <span>{{ 'about.resume' | translate }}</span>
+            </a>
+            <a href="#contact">
+                <i class="bi bi-person-vcard-fill"></i>
+                <span>{{ 'about.contact' | translate }}</span>
             </a>
         </div>
     </div>

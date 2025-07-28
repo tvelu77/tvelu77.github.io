@@ -4,19 +4,21 @@
   </div>
 
   <div class="right">
-    <a href="https://github.com/tvelu77" target="_blank" rel="noopener noreferrer">
-      <i class="bi bi-github"></i>
-      <span>Github</span>
+    <a (click)="toggleTheme()">
+      @if (!isDarkMode()) {
+      <i class="bi bi-moon-fill icon"></i>
+      } @else {
+      <i class="bi bi-sun-fill icon"></i>
+      }
     </a>
-
-    <a href="https://www.linkedin.com/in/thomas-velu/" target="_blank" rel="noopener noreferrer">
-      <i class="bi bi-linkedin"></i>
-      <span>Linkedin</span>
-    </a>
-
-    <a href="mailto:velu.thomas@murena.io">
-      <i class="bi bi-envelope-at-fill"></i>
-      <span>Email</span>
-    </a>
+    @if (getCurrentLanguage() === 'fr') {
+      <a class="icon" (click)="useLanguage('en')">
+        🇬🇧
+      </a>
+    } @else if (getCurrentLanguage() === 'en') {
+      <a class="icon" (click)="useLanguage('fr')">
+        🇫🇷
+      </a>
+    }
   </div>
 </nav>
