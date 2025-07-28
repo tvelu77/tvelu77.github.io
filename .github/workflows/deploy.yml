@@ -52,7 +52,7 @@ jobs:
         with:
           github_access_token: ${{ secrets.GITHUB_TOKEN }}
           deploy_branch: gh-pages
-          angular_dist_build_folder: dist/tvelu77.github.io
+          angular_dist_build_folder: dist/tvelu77.github.io/browser
 
 permissions:
   contents: write
