@@ -3,16 +3,18 @@ import { TranslateService } from "@ngx-translate/core";
 import { NavbarComponent } from './navbar/navbar.component';
 import { AboutComponent } from './about/about.component';
 import { SkillsComponent } from './skills/skills.component';
+import { CvViewerComponent } from './cv-viewer/cv-viewer.component';
+import { ContactComponent } from './contact/contact.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [NavbarComponent, AboutComponent, SkillsComponent],
+  imports: [NavbarComponent, AboutComponent, SkillsComponent, CvViewerComponent, ContactComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'tvelu77.github.io';
+  title = 'tvelu77.frama.io';
   currentLang: string = "en";
 
   constructor(private readonly translate: TranslateService) {
