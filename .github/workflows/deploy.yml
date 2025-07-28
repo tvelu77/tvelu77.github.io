@@ -36,15 +36,25 @@ jobs:
             ${{ runner.os }}-build-${{ env.cache-name }}-
             ${{ runner.os }}-build-
             ${{ runner.os }}-
+
       - name: Install Dependencies
         if: steps.cache-nodemodules.outputs.cache-hit != 'true'
         run: |
           npm ci
+
       - name: Build
         run: |
           npm run build-prod
 
       - name: Deploy
         if: ${{ github.event_name == 'push' }}
-        run: |
-          npm run deploy
+        uses: AhsanAyaz/angular-deploy-gh-pages-actions@[version]
+        with:
+          github_access_token: ${{ secrets.GITHUB_TOKEN }} # see the Configuration section for how you can create secrets
+          build_configuration: staging # The build environment for the app. please look configurations in your angular.json
+          base_href: /tvelu77.github.io/   # make sure this corresponds to https://<your_username>.github.io/<base_href>/
+          deploy_branch: gh-pages # The branch the action should deploy to.
+          angular_dist_build_folder: dist/tvelu77.frama.io # The folder where your project is supposed to be after running ng build by the action.
+
+permissions:
+  contents: write # Allow write permission to GITHUB_TOKEN to commit to deploy branch.
