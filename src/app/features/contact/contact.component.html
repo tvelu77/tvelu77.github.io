@@ -1,0 +1,32 @@
+<section
+  id="contact"
+  class="flex flex-col items-center justify-center gap-6 px-6 py-24 text-center"
+>
+  <h2 class="text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl dark:text-slate-100">
+    {{ i18n.dict().contact.title }}
+  </h2>
+  <p class="max-w-md text-lg leading-relaxed text-slate-600 dark:text-slate-400">
+    {{ i18n.dict().contact.description }}
+  </p>
+  <a
+    href="mailto:{{ email }}"
+    class="mt-2 inline-flex items-center gap-3 rounded-full border border-slate-200 bg-white px-6 py-3 text-lg font-medium text-slate-800 shadow-lg shadow-slate-950/5 transition hover:border-slate-300 hover:shadow-xl hover:shadow-slate-950/10 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-200 dark:hover:border-slate-700"
+  >
+    <i class="bi bi-envelope"></i>
+    {{ email }}
+  </a>
+  <div class="mt-4 flex items-center gap-4">
+    @for (social of socials; track social.url) {
+      <a
+        [href]="social.url"
+        target="_blank"
+        rel="noreferrer"
+        [attr.aria-label]="social.label"
+        [title]="social.label"
+        class="inline-flex h-11 w-11 items-center justify-center rounded-full border border-slate-200 bg-white text-slate-600 shadow-sm transition hover:text-slate-900 hover:shadow-md dark:border-slate-800 dark:bg-slate-900 dark:text-slate-300 dark:hover:text-slate-100"
+      >
+        <i class="bi bi-{{ social.icon }} text-xl"></i>
+      </a>
+    }
+  </div>
+</section>

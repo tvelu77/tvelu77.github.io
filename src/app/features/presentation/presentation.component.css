@@ -1,0 +1,4 @@
+:host ::ng-deep app-avatar img {
+  height: 10rem !important;
+  width: 10rem !important;
+}

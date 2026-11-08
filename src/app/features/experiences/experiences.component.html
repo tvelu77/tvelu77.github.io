@@ -1,0 +1,21 @@
+<section
+  id="experiences"
+  class="flex min-h-screen flex-col items-center justify-center gap-14 px-6 py-24"
+>
+  <h2
+    class="flex items-center gap-4 text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl dark:text-slate-100"
+  >
+    <i class="bi bi-briefcase" aria-hidden="true"></i>
+    {{ i18n.dict().experiences.professional }}
+  </h2>
+  <app-timeline class="w-full max-w-3xl" [items]="professional()" dateFormat="MMM y" />
+</section>
+<section class="flex min-h-screen flex-col items-center justify-center gap-14 px-6 py-24">
+  <h2
+    class="flex items-center gap-4 text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl dark:text-slate-100"
+  >
+    <i class="bi bi-mortarboard" aria-hidden="true"></i>
+    {{ i18n.dict().experiences.scholar }}
+  </h2>
+  <app-timeline class="w-full max-w-3xl" [items]="scholar()" dateFormat="MMM y" />
+</section>
