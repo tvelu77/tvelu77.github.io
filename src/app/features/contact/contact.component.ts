@@ -13,7 +13,6 @@ export class ContactComponent {
   protected readonly email = 'velu.thomas@murena.io';
   protected readonly socials = [
     { label: 'GitHub', icon: 'github', url: 'https://github.com/tvelu77' },
-    { label: 'Codeberg', icon: 'git', url: 'https://codeberg.org/tvelu77' },
     { label: 'LinkedIn', icon: 'linkedin', url: 'https://www.linkedin.com/in/thomas-velu' },
   ];
 }

@@ -24,19 +24,19 @@ export class ProjectsComponent {
     {
       title: 'Portfolio',
       description: this.i18n.dict().projects.portfolio,
-      url: 'https://codeberg.org/tvelu77/pages',
+      url: 'https://github.com/tvelu77/pages',
       tags: ['Angular', 'Tailwind CSS'],
     },
     {
       title: 'Freya',
       description: this.i18n.dict().projects.freya,
-      url: 'https://codeberg.org/tvelu77/freya',
+      url: 'https://github.com/tvelu77/freya',
       tags: ['Kotlin', 'Jetpack Compose', 'Android'],
     },
     {
       title: 'CloutMetrics',
       description: this.i18n.dict().projects.cloutmetrics,
-      url: 'https://codeberg.org/tvelu77/cloutmetrics',
+      url: 'https://github.com/tvelu77/cloutmetrics',
       tags: ['Java', 'Spring Boot'],
     },
   ]);

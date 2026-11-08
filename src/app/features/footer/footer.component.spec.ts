@@ -24,7 +24,7 @@ describe('FooterComponent', () => {
     const element: HTMLElement = fixture.nativeElement;
     expect(element.textContent).toContain(new Date().getFullYear().toString());
     const link = element.querySelector('a');
-    expect(link?.getAttribute('href')).toContain('codeberg.org');
+    expect(link?.getAttribute('href')).toContain('github.com');
     expect(link?.textContent).toContain('View source');
   });
 });
